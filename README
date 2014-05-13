@@ -19,7 +19,7 @@ Simple Run:
 The code reads the points from the image (samples) and fits a Gaussian Mixture Model using the Expectation Maximization algorithm in order to maximize the log probability of each sample.
 
 After this process, the program shows two images:
-* One representing the clusters, that is the 2D gaussians along with the (scaled) eigenvectors of its dimensions. The more the ellipse is white, the higher posterior probability is assigned to that component.
+* One representing the clusters, that is the 2D gaussians along with the (scaled) eigenvectors of its dimensions. The more the ellipse is white, the higher weight is assigned to that component.
 * The posterior probability of each sample.
 
 

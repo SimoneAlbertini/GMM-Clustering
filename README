@@ -1,5 +1,4 @@
-Requirements
------
+# Requirements
 
 * C++08 compiler (actually used gcc/g++ 4.8.1)
 * OpenCv 2.4.* with Qt 4 support
@@ -8,31 +7,26 @@ The current code was compiled on Linux but it should be straightforward to make 
 
 NOTE: This code is no longer maintained. If you want to run this code with early versions of OpenCV you should modify it as the Em class is now under cv::ml::EM, not cv::EM.
 
-
-Usage
------
+# Usage
 
 Type './gmm help' to display help.
 
 Simple Run:
-	> make clean && make
-	> ./gmm
-
+```
+> make clean && make
+> ./gmm
+```
 The code reads the points from the image (samples) and fits a Gaussian Mixture Model using the Expectation Maximization algorithm in order to maximize the log probability of each sample.
 
 After this process, the program shows two images:
 * One representing the clusters, that is the 2D gaussians along with the (scaled) eigenvectors of its dimensions. The more the ellipse is white, the higher weight is assigned to that component.
 * The posterior probability of each sample.
 
-
-License
------
+# License
 
 See LICENSE
 
-
-Credits
------
+# Credits
 
 The following tutorial has proved very helpful:
 

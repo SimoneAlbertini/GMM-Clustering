@@ -6,6 +6,8 @@ Requirements
 
 The current code was compiled on Linux but it should be straightforward to make it run also under Windows platforms.
 
+NOTE: This code is no longer maintained. If you want to run this code with early versions of OpenCV you should modify it as the Em class is now under cv::ml::EM, not cv::EM.
+
 
 Usage
 -----
